@@ -1,0 +1,54 @@
+this is the source to my diploma thesis
+this is provided in the hope:
+ - someone reads it
+ - finds the whole or parts useful
+ - copy the layout ... whatever
+
+copyright/urheberrecht notice:
+this document and included pictures/raw diagrams are subject to the CC license by sa 3.0, see:
+  http://creativecommons.org/licenses/by-sa/3.0/
+
+this document is hosted on:
+  https://github.com/qknight/Multi-PlatformSoftwarePackageManagement
+
+it might be subject to my blog at:
+  blog.lastlog.de 
+
+candies can be found here:
+ - chap 4: components used in a package manager
+ - chap 4.6: different integration levels of a package manager
+ - chap 5.13: ways to replicate a system
+ - chap 5.15 ff
+ - chap 6.2: evopedia deployment summary
+ - chap 7 (you might want to read this a few times, it is quite complex)
+ - chap 9: here i introduce some new terminology in package management
+           (probably a _must read_)
+
+to build this document i had to install many latex extensions like:
+
+% qlist -I | grep -i dev-tex  
+	dev-tex/glossaries
+	dev-tex/latex2html
+	dev-tex/luatex
+	dev-tex/minted
+	dev-texlive/texlive-basic
+	dev-texlive/texlive-documentation-base
+	dev-texlive/texlive-fontsrecommended
+	dev-texlive/texlive-genericrecommended
+	dev-texlive/texlive-latex
+	dev-texlive/texlive-latexextra
+	dev-texlive/texlive-latexrecommended
+	dev-texlive/texlive-pictures
+	dev-texlive/texlive-texinfo
+	dev-texlive/texlive-xetex
+(probably some are missing)
+
+to compile i used kile with pdflatex
+
+comments welcome
+
+have fun
+joachim schiele <js@lastlog.de>
+
+
+

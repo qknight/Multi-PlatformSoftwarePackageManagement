@@ -1,0 +1,80 @@
+% --- schnipp ----------------------------------
+
+% http://nicolas.b.pierron.free.fr/nixos/nix-logo/nix-collection.svg
+% http://www.mrunix.de/forums/archive/index.php/t-48881.html
+
+\definecolor{nix}{RGB}{81,81,200}
+\definecolor{debian}{RGB}{199,0,54}
+\definecolor{gentoo}{RGB}{225,225,238}
+
+% \logo{filename}{title}
+\newcommand{\logo}[2]{
+	\noindent\begin{minipage}[t][1cm][t]{1cm}
+		\includegraphics[scale=.07]{images/logos/png/#1.png}
+	\end{minipage}
+	\noindent\parbox[b][0.5cm][c]{\textwidth}{#2}
+}
+
+% \rulebox{color}{text}
+\newcommand{\rulebox}[2]{
+	\vspace*{1ex}
+	\noindent {\color{#1} \vrule width .75ex {
+		\hspace*{1ex}
+		\parbox{\textwidth}{\color{black}
+			\vspace*{1ex}
+			#2
+			\vspace*{1ex}
+		}
+	}}
+	\vspace*{1ex}
+}
+
+% % --- schnapp ----------------------------------
+% 
+% 
+% 
+% 
+% 
+
+% \newcommand{\gentoo}[1]{{
+% \parskip 10.2pt
+% 
+% \begin{tabular}{ |l}
+% \parbox{\textwidth}{ 
+% \includegraphics[width=20px]{images/gentoo-icon.png} Gentoo Linux \\
+% 
+% #1 }
+% \end{tabular}
+% }}
+% 
+% \newcommand{\debianN}{
+% 
+% }
+% 
+% \newcommand{\nix}[1]{{
+% \parskip 10.2pt
+% 
+% \begin{tabular}{ |l}
+% 
+% \parbox{\textwidth}{ 
+% \includegraphics[width=20px]{images/nix-icon.png} Nix \\
+% 
+% #1 }
+% \end{tabular}
+% }}
+% 
+
+
+
+% \newenvironment{gentoo}
+% { %begin
+% \leftskip 0cm
+% % \begin{tabular}{ |l }
+% % \end{tabular}
+% \vline
+% }
+% 
+% { %end
+% 
+% }
+
